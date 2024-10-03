@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .logo img{
+    height: 100px;
+    width: 120px;
+    
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+ 
+    
+   
+
+}
+.menu  li{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+.menu  li a{
+    text-decoration: none;
+    color: #333;
+    margin: 5px;
+    transition: .4s ease;
+    font-size: 20px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+.menu li a:hover{
+    color: orangered;
+  
+}
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    margin-right: 8%;
+    color: #fff;
+    background-color:blue;
+    font-size: 17px;
+    transition: .4s ease;
+}
+button:hover{
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.heading{
+    height: 100px;
+    color: black;
+    margin-top: 10%;
+}
+.heading h1{
+    font-weight: 700;
+   
+}
+.heading h1 span{
+    color: orangered;
+}
+.heading p{
+    font-weight: 200;
+    color: #333;
+    
+}
+
+.btn{
+    height: 45px;
+    
+    margin: 8px;
+    padding: 8px 20px;
+    width: 120px;
+    color: rgb(28, 28, 78);
+    color: #fff;
+    border-radius: 15px;
+   
+    font-size: 13px;
+   
+   margin-top: 5%;
+   
+}
+.btn:hover{
+    border: .70px solid orangered;
+    color: orangered;
+}
+
+.img1 img{
+   margin-left: 34%;
+ 
+   
+   height: 250px;
+   width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
